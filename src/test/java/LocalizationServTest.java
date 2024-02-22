@@ -35,9 +35,9 @@ public class LocalizationServTest {
     private static Stream<Arguments> parametersDefinition() {
         return Stream.of(
                 Arguments.of(Country.RUSSIA, "Добро пожаловать"),
-                Arguments.of(Country.Korea, "Welcome"),
+                Arguments.of(Country.BRAZIL, "Welcome"),
                 Arguments.of(Country.USA, "Welcome"),
-                Arguments.of(Country.Japan, "Welcome")
+                Arguments.of(Country.GERMANY, "Welcome")
         );
-    }
+    } 
 }
